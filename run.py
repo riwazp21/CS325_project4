@@ -40,5 +40,5 @@ if __name__ == "__main__":
 		comment_scraper(f,count)
 		count = count + 1
 	
-	    	
+# pip install openai -> "Note for prog 4."
 
