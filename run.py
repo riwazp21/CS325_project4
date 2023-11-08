@@ -27,6 +27,8 @@ content_scraper.py(module_1) and comment_scraper.py(module_2) calls file_storer.
 from bs4 import BeautifulSoup
 from module_1.content_scraper import content_scraper
 from module_2.comment_scraper import comment_scraper
+from module_4.sentiment import getsentiment
+
 import sys
 import os
 

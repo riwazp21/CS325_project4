@@ -11,15 +11,16 @@ Functionality
 
 """
 import os
+import io
 
 def file_storer(topic, filename, data):
 	if(topic == 'A'):
 		output_path = os.path.join("Data","raw",filename)
-		with open(output_path,"w") as f:
+		with open(output_path,"w", encoding="utf-8") as f:
 			f.write(data)
 		print("Content file stored succesfully\n")
 	if(topic == 'B'):
 		output_path = os.path.join("Data","processed",filename)
-		with open(output_path,"w") as f:
+		with open(output_path,"w", encoding="utf-8") as f:
 			f.write(data)
-		print("Comment file stored succesfully\n")		
+		print("Comment file stored succesfully\n")
