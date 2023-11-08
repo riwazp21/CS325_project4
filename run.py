@@ -54,7 +54,7 @@ if __name__ == "__main__":
 		file2.writelines(sentiment)
 		file2.writelines("break")
 		count = count + 1
-		if(count == 20):
+		if(count == 50):
 			break
 
 	file2.close()
