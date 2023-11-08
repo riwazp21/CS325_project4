@@ -21,9 +21,10 @@ This project scraps all the user comments from multiple reddit posts stored in a
    module_1
    module_2
    module_3
+   module_4
    Data
    run.py
-   reddit.txt   
+   reddit.txt(Store the reddit link here. You can store multiple reddit link for this project(New version feature)
    ```
 3. The requirement.yaml file has all the necessary packages for this code to work
 4. To create a new environment, run the following code in your terminal, env_name can be anything. Make sure its unique and something you have never used before
@@ -36,3 +37,5 @@ This project scraps all the user comments from multiple reddit posts stored in a
    2. Run the following command
       ```python run.py reddit.txt ```
    3. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
+   4. The sentiments will be stored in Data/sentiment/sentiment1.txt. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
+   5. Also, due to limitation of the API and frequent change of project documentation, only one reddit link is used in reddit.txt file to keep up the same functionality as project3
