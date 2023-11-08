@@ -41,6 +41,25 @@ if __name__ == "__main__":
 		f = os.path.join(content_path, filename)
 		comment_scraper(f,count)
 		count = count + 1
-	
+	sentiment_input_path = os.path.join("Data","processed","comment1.txt")
+	sentiment_output_path = os.path.join("Data","sentiment","sentiment1.txt")
+
+	file1 = open(sentiment_input_path,'r')
+	file2 = open(sentiment_output_path,'w')
+	Lines = file1.readlines()
+
+	count = 0
+	for lines in Lines:
+		sentiment = getsentiment(lines)
+		file2.writelines(sentiment)
+		file2.writelines("break")
+		count = count + 1
+		if(count == 20):
+			break
+
+	file2.close()
+	file1.close()
+
+
 # pip install openai -> "Note for prog 4."
 

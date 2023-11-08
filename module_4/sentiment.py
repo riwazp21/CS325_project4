@@ -9,9 +9,12 @@ openai.api_key = apikey
 def getsentiment(content):
 
     # String to be sent to ai in order to retrieve sentiment.
+    
+
     ai_input = f"What is the sentiment of the given comment? {content}"
 
     # Start of request to API
+    
     feedback = openai.Completion.create(
         prompt = ai_input,
         engine = "text-davinci-003",
@@ -19,7 +22,8 @@ def getsentiment(content):
         n=1,
         stop=None
     )
-
+    
     # Takes response an parses out sentiment
     ai_sentiment = feedback.choices[0].text.strip()
     return ai_sentiment
+#print(getsentiment("I am amazing"))

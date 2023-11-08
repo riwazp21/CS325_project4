@@ -32,4 +32,5 @@ def content_scraper(file):
 		 filename = "content"+str(count)+".txt"
 		 file_storer('A', filename, htmldata)
 		 count = count + 1;
+		 
 	
