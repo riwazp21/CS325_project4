@@ -14,7 +14,8 @@ import sys
 from module_3.file_storer import file_storer
 
 def comment_scraper(file, count):
-	with open(file,'r',encoding = 'utf-8') as f:
+	print(file)
+	with open(file,"r") as f:
 		html_content = f.read()
 	data_str = ""
 	commentNum = 0;
@@ -22,9 +23,11 @@ def comment_scraper(file, count):
 	#f = open("comment.txt","w")
 	for item in soup.find_all("div",class_="usertext-body may-blank-within md-container"):
 		if(commentNum != 0):
-			data_str = data_str + item.get_text()	
-			commentNum = commentNum + 1;
-		commentNum = commentNum + 1;
+
+			data_str = data_str + item.get_text().replace("\n","")
+			data_str = data_str + "\n"	
+			commentNum = commentNum + 1
+		commentNum = commentNum + 1
 		
 		#f.write(data_str)
 	#print(data_str)

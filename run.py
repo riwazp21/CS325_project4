@@ -36,11 +36,9 @@ if __name__ == "__main__":
 	url = sys.argv[1]
 	count = 1
 	content_scraper(url)
-	content_path = os.path.join("Data","raw")
-	for filename in os.listdir(content_path):
-		f = os.path.join(content_path, filename)
-		comment_scraper(f,count)
-		count = count + 1
+	content_path = os.path.join("Data","raw","content1.txt")
+	comment_scraper(content_path,count)
+	
 	sentiment_input_path = os.path.join("Data","processed","comment1.txt")
 	sentiment_output_path = os.path.join("Data","sentiment","sentiment1.txt")
 
