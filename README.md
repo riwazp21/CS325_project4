@@ -39,3 +39,11 @@ This project scraps all the user comments from multiple reddit posts stored in a
    3. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
    4. The sentiments will be stored in Data/sentiment/sentiment1.txt. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
    5. Also, due to limitation of the API and frequent change of project documentation, only one reddit link is used in reddit.txt file to keep up the same functionality as project3
+
+#### The process of creating/utilizing keys with openAI/API account.
+   1. Before starting, navigate to **'auth0.openai.com'** to create an account.
+   2. Once the account is created, navigate through the left-hand-side navigation bar and open **'API keys'**. From here, you can **'Create new secret key'** which gets used in your program.
+   3. Inside of your module you wish to utilize openai, you need to first import 'openai'**(It's important to use pip through terminal to install openai first, 'pip install openai')**.
+   4. Next, initiliaze your apikey variable in your working '.py' file. **'openai.api_key'** will be set equal to this variable. Also, you'll want to initialize a string variable that will hold the input you wish to hand off to openai for a response. This will be used later.
+   5. Now, you must create your '**Chat Completions API**'. This will allow you to make use of one-way conversations with AI to receive responses. Here, you will make use of the input variable you initialized(ai-input). Search for examples of openai's **'openai.Completion.create()'** procedure, and fill out the requested information with your choices of input. This will go below everything you've written so far.
+   6. Finally, to extract a response. There are many ways to do so, they all involve utilizing the 'Chat Completions API' entity. Once you've choosen a way to do so, you can save this information within a chosen variable. Here's an example of how we got some feedback/response from our **'Chat Completions API'** entity named **'feedback'**. Example -> **'ai_sentiment = feedback.choices[0].text.strip()'**. Now you've successfully made an API  call.
