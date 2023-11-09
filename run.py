@@ -21,7 +21,7 @@ CS325_p3/
 |--module_3
 	└──file_storer.py
 |--module_4
-        └──sentiment.py
+        └──sentiment3.py
 run.py calls functions content_scraper and comment_scraper from module 1 and module 2
 content_scraper.py(module_1) and comment_scraper.py(module_2) calls file_storer.py from module_3
 After the contents and comments are stored succesfully, run.py calls sentiment.py(module_4) to get the sentiments of a passed comment
