@@ -1,6 +1,6 @@
 """
 File Name: run.py
-Author: Riwaz Poudel
+Author: Riwaz Poudel & Justin Burns
 Input: text file that has a reddit url through command line argument
 Output: content1.txt, comment1.txt, and sentiment.txt inside Data/Raw, inside Data/Processed, and Data/sentiment respectively
 Functionality:
@@ -24,7 +24,7 @@ CS325_p3/
         └──sentiment3.py
 run.py calls functions content_scraper and comment_scraper from module 1 and module 2
 content_scraper.py(module_1) and comment_scraper.py(module_2) calls file_storer.py from module_3
-After the contents and comments are stored succesfully, run.py calls sentiment.py(module_4) to get the sentiments of a passed comment
+After the contents and comments are stored succesfully, run.py calls sentiment3.py(module_4) to get the sentiments of a passed comment
 
 """
 from bs4 import BeautifulSoup
