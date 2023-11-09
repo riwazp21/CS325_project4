@@ -27,7 +27,7 @@ content_scraper.py(module_1) and comment_scraper.py(module_2) calls file_storer.
 from bs4 import BeautifulSoup
 from module_1.content_scraper import content_scraper
 from module_2.comment_scraper import comment_scraper
-from module_4.sentiment import getsentiment
+from module_4.sentiment3 import get_sentiment
 
 import sys
 import os
@@ -48,15 +48,17 @@ if __name__ == "__main__":
 
 	count = 0
 	for lines in Lines:
-		sentiment = getsentiment(lines)
+		sentiment = get_sentiment(lines)
+		#file2.writelines(lines)
 		file2.writelines(sentiment)
-		file2.writelines("break")
+		file2.writelines("\n")
 		count = count + 1
 		if(count == 50):
 			break
-
+    
 	file2.close()
 	file1.close()
+	print("Sentiment Analysis done succesfully")
 
 
 # pip install openai -> "Note for prog 4."
