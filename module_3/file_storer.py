@@ -18,9 +18,25 @@ def file_storer(topic, filename, data):
 		output_path = os.path.join("Data","raw",filename)
 		with open(output_path,"w", encoding="utf-8") as f:
 			f.write(data)
+		f.close()
 		print("Content file stored succesfully\n")
 	if(topic == 'B'):
-		output_path = os.path.join("Data","processed",filename)
-		with open(output_path,"w", encoding="utf-8") as f:
+		output_path_comment = os.path.join("Data","processed",filename)
+		with open(output_path_comment,"w",encoding="utf-8") as f:
+			#print(data)
 			f.write(data)
+		f.close()
 		print("Comment file stored succesfully\n")
+			
+				
+		#print(output_path)
+		#data = "Ribs"
+		#text_file = open(output_path,"w")
+		#text_file.write(data)
+		#text_file.close()
+
+
+
+
+#testing
+#file_storer('B',"sample.txt","Ribso")

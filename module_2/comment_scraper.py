@@ -14,7 +14,7 @@ import sys
 from module_3.file_storer import file_storer
 
 def comment_scraper(file, count):
-	print(file)
+	#print(file)
 	with open(file,"r") as f:
 		html_content = f.read()
 	data_str = ""
@@ -33,5 +33,6 @@ def comment_scraper(file, count):
 	#print(data_str)
 	#f.write(data_str)
 	#f.close()
+	#data_str = str(data_str)
 	filename = "comment" + str(count) + ".txt"
 	file_storer('B',filename,data_str)	

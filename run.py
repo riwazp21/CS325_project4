@@ -35,13 +35,52 @@ from module_4.sentiment3 import get_sentiment
 import sys
 import os
 
+
+def sentimentAnalysis(input_file, output_file):
+	file1 = open(input_file,'r')
+	file2 = open(output_file,'w')
+	Lines = file1.readlines()
+
+	count = 0
+	for lines in Lines:
+		sentiment = get_sentiment(lines)
+		#file2.writelines(lines)
+		file2.writelines(sentiment)
+		file2.writelines("\n")
+		count = count + 1
+		if(count == 50):
+			break
+    
+	file1.close()
+	file2.close()
+	print("Sentiment Analysis done for " + input_file + " succesfully")
+
+
+
 if __name__ == "__main__":
 	url = sys.argv[1]
 	count = 1
 	content_scraper(url)
-	content_path = os.path.join("Data","raw","content1.txt")
-	comment_scraper(content_path,count)
-	
+	content_path = os.path.join("Data","raw")
+	for filename in os.listdir(content_path):
+		file_path = os.path.join(content_path,filename)
+		if os.path.isfile(file_path) and filename.endswith('.txt'):
+			#print(file_path)
+			comment_scraper(file_path, count)
+			count = count + 1
+	sentiment_input_directory = os.path.join("Data","processed")
+	sentiment_output_directory = os.path.join("Data","sentiment")
+	count = 1
+	for filename in os.listdir(sentiment_input_directory):
+		input_file = os.path.join(sentiment_input_directory,filename)
+		#print(input_file)
+		if input_file.endswith('.txt'):
+			output_file = os.path.join(sentiment_output_directory,"sentiment"+str(count)+".txt")
+
+			sentimentAnalysis(input_file,output_file)
+			count = count + 1
+	'''
+   #Project 4 stuff
 	sentiment_input_path = os.path.join("Data","processed","comment1.txt")
 	sentiment_output_path = os.path.join("Data","sentiment","sentiment1.txt")
 
@@ -63,6 +102,6 @@ if __name__ == "__main__":
 	file1.close()
 	print("Sentiment Analysis done succesfully")
 
-
+  '''
 # pip install openai -> "Note for prog 4."
 
