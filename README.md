@@ -1,4 +1,4 @@
-# Project - 4 CS 325 Riwaz Poudel and Justin Burns
+# Project - 5 CS 325 Riwaz Poudel and Justin Burns
 ## Python Program to scrape comments from multiple reddit post and running sentimental analysis on it
 ### Description
 This project scraps all the user comments from multiple reddit posts stored in a file, and runs a sentimental analysis algorithm on it
@@ -16,7 +16,7 @@ This project scraps all the user comments from multiple reddit posts stored in a
 5. After this command, a local file in your device exists
 #### Setting up the conda environment
 1. In your terminal change your directory to go inside the CS325_project4 file
-2. The project file(reddit_scrapper_v2.0) has following modules and files
+2. The project file(CS325_project4) has following modules and files
    ```
    module_1
    module_2
@@ -38,7 +38,7 @@ This project scraps all the user comments from multiple reddit posts stored in a
       ```python run.py reddit.txt ```
    3. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
    4. The sentiments will be stored in Data/sentiment/sentiment1.txt. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
-   5. Also, due to limitation of the API and frequent change of project documentation, only one reddit link is used in reddit.txt file to keep up the same functionality as project3
+   5. The sentiment will be stored as sentiment1.txt, sentiment2.txt, etc.
 
 #### The process of creating/utilizing keys with openAI/API account.
    1. Before starting, navigate to **'auth0.openai.com'** to create an account.
