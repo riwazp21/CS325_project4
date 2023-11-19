@@ -36,9 +36,10 @@ This project scraps all the user comments from multiple reddit posts stored in a
    1. Make sure you have your environment working before you run your python script.
    2. Run the following command
       ```python run.py reddit.txt ```
-   3. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
-   4. The sentiments will be stored in Data/sentiment/sentiment1.txt. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
-   5. The sentiment will be stored as sentiment1.txt, sentiment2.txt, etc.
+      Instead of reddit.txt, you can also have any file you want to run the program. Make sure you give the correct directory
+   4. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
+   5. The sentiments will be stored in Data/sentiment. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
+   6. The sentiments will be stored as sentiment1.txt, sentiment2.txt, etc.
 
 #### The process of creating/utilizing keys with openAI/API account.
    1. Before starting, navigate to **'auth0.openai.com'** to create an account.
