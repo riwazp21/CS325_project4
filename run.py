@@ -72,7 +72,7 @@ if __name__ == "__main__":
 	sentiment_input_directory = os.path.join("Data","processed")
 	sentiment_output_directory = os.path.join("Data","sentiment")
 	count = 1
-	#Implement pandas task here.
+	##Implement pandas task here.
 	for filename in os.listdir(sentiment_input_directory):
 		input_file = os.path.join(sentiment_input_directory,filename)
 		#print(input_file)
