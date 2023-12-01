@@ -34,7 +34,8 @@ from module_4.sentiment3 import get_sentiment
 
 import sys
 import os
-
+import pandas as pd
+import matplotlib.pyplot as plt
 
 def sentimentAnalysis(input_file, output_file):
 	file1 = open(input_file,'r')
