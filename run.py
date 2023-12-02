@@ -72,7 +72,7 @@ if __name__ == "__main__":
 	sentiment_input_directory = os.path.join("Data","processed")
 	sentiment_output_directory = os.path.join("Data","sentiment")
 	count = 1
-	##Implement pandas task here.
+	##Sentiments are created and written to output files here through sentimentAnalysis which use sentiment function.
 	for filename in os.listdir(sentiment_input_directory):
 		input_file = os.path.join(sentiment_input_directory,filename)
 		#print(input_file)
@@ -81,7 +81,29 @@ if __name__ == "__main__":
 
 			sentimentAnalysis(input_file,output_file)
 			count = count + 1
-	'''
+
+	##Implement pandas task here.
+count = 1
+extracted_path = os.path.join("Data","sentiment")
+plot_path = os.path.join("Data","Plots")
+for files in os.listdir(extracted_path):
+    if files.endswith('.txt'):
+        df = pd.read_csv(files, header=None, names=['Sentiment]'])
+        sentiment_counts = df['Sentiment'].value_counts()
+        sentiment_counts.plot(kind='bar', color='g')
+
+        plt.xlabel('Sentiment Types(Positive, Neutral, Negative)')
+        plt.ylabel('Count',fontsize=13)
+        plt.title('Sentiment Analysis Plot', fontsize=20)
+        plt.savefig(plot_path, 'sentiment_plot' + str(count))
+        count += 1
+
+        plt.show()
+
+
+
+
+'''
    #Project 4 stuff
 	sentiment_input_path = os.path.join("Data","processed","comment1.txt")
 	sentiment_output_path = os.path.join("Data","sentiment","sentiment1.txt")
