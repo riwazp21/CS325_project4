@@ -28,6 +28,7 @@ After the contents and comments are stored succesfully, run.py calls sentiment3.
 
 """
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, parse_qs
 from module_1.content_scraper import content_scraper
 from module_2.comment_scraper import comment_scraper
 from module_4.sentiment3 import get_sentiment
@@ -36,6 +37,7 @@ import sys
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+import requests
 
 def sentimentAnalysis(input_file, output_file):
 	file1 = open(input_file,'r')
@@ -58,12 +60,36 @@ def sentimentAnalysis(input_file, output_file):
 
 
 
+def get_title_from_url(url):
+	parsed_url = urlparse(url)
+	path_segment = parsed_url.path.split('/')
+	desired_part = path_segment[-2]
+	formatted_text = ' '.join(word.capitalize() for word in desired_part.split('_'))
+	return formatted_text
+
+def title_array_from_file(file):
+	titles = []
+	with open(file, 'r') as f:
+		for line in f:
+			title = get_title_from_url(line)
+			titles.append(title)
+	return titles
+
+
 if __name__ == "__main__":
-	url = sys.argv[1]
+	file_name = sys.argv[1]
 	count = 1
-	content_scraper(url)
+	content_scraper(file_name)
+
+	#List of all the titles
+
+	url_titles = title_array_from_file(file_name)
+
+
 	content_path = os.path.join("Data","raw")
-	for filename in os.listdir(content_path):
+	files_list = sorted(os.listdir(content_path))
+	for filename in files_list:
+		#Made sure the files are sorted alphabetically so that we dont read the wrong file while going through the directory
 		file_path = os.path.join(content_path,filename)
 		if os.path.isfile(file_path) and filename.endswith('.txt'):
 			#print(file_path)
@@ -73,7 +99,8 @@ if __name__ == "__main__":
 	sentiment_output_directory = os.path.join("Data","sentiment")
 	count = 1
 	##Sentiments are created and written to output files here through sentimentAnalysis which use sentiment function.
-	for filename in os.listdir(sentiment_input_directory):
+	sentiment_file_list = sorted(os.listdir(sentiment_input_directory))
+	for filename in sentiment_file_list:
 		input_file = os.path.join(sentiment_input_directory,filename)
 		#print(input_file)
 		if input_file.endswith('.txt'):
@@ -86,19 +113,32 @@ if __name__ == "__main__":
 count = 1
 extracted_path = os.path.join("Data","sentiment")
 plot_path = os.path.join("Data","Plots")
-for files in os.listdir(extracted_path):
+plot_file_list = sorted(os.listdir(extracted_path))
+colors = {'Positive': 'green', 'Neutral': 'gray', 'Negative': 'red'}
+for files in plot_file_list:
     if files.endswith('.txt'):
-        df = pd.read_csv(files, header=None, names=['Sentiment]'])
-        sentiment_counts = df['Sentiment'].value_counts()
-        sentiment_counts.plot(kind='bar', color='g')
+    	files_to_read = os.path.join(extracted_path,files)
+    	with open(files_to_read, 'r') as file:
+    		sentiments = file.read().splitlines()
+    	positive_count = sentiments.count('Positive')
+    	neutral_count = sentiments.count('Neutral')
+    	negative_count = sentiments.count('Negative')
+    	data = {'Positive':[positive_count],'Neutral':[neutral_count],'Negative':[negative_count]}
+    	df = pd.DataFrame(data)
+    	ax = df.plot(kind='bar', color=['green', 'grey', 'red'])
+    	plt.xlabel('Sentiment')
+    	plt.ylabel('Count')
+    	plt.title(url_titles[count-1])
+    	legend_labels = ['Positive','Neutral','Negative'] 
 
-        plt.xlabel('Sentiment Types(Positive, Neutral, Negative)')
-        plt.ylabel('Count',fontsize=13)
-        plt.title('Sentiment Analysis Plot', fontsize=20)
-        plt.savefig(plot_path, 'sentiment_plot' + str(count))
-        count += 1
+    	ax.legend(legend_labels)
 
-        plt.show()
+
+    	plot_title = 'sentiment_plot' + str(count) + '.png'
+    	plot_file_path = os.path.join(plot_path, plot_title)
+    	plt.savefig(plot_file_path)
+    	print("Sentiment plots stored succesfully \n")
+    	count += 1
 
 
 

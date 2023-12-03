@@ -1,64 +1,76 @@
-This happened yesterday. I picked up my FIL from the Airport yesterday, he was limping on the left side which was unusual considering he is in a decent shape. He had not eaten for 6-7 hrs so we thought this could be low blood sugar. We made him eat some food, but he still felt weakness in his left side. My wife put her AW8 on his wrist and ran an ECG. AF was detected, we ran another ECG after 15 mins and still the same result. We rushed to a cardiac specialist. The doctor ran an ECG and 2D echo and confirmed AF. He was admitted to the hospital and after some more tests, a stroke was confirmed. The AW detecting an AF alerted us and possibly averted what could have been a major health issue. I am glad we had the technology available and made good use of it. Thanks Apple !
-Next step: get FIL his own watch and make sure he uses it!
-He is pretty old school and struggles to use his most basic android phone. I don’t think that’ll help
-If you have an iPhone and don’t mind setting it up for “someone else” to use while it’s connected on your device, he doesn’t need to do much besides wear it. Parents use it to track their children on find my.
-A-Fib detection and ECG functionality is disabled when setup that way.
-Lmao god forgot you could do this… tracking your children using Apple Watch that’s hilarious.
-Just throw an apple tag in each of their shoes
-Nah then they can just take it out or throw shoes away. Gonna need to inject it under their skin.
-It will! The watch will automatically detect afibs as long as his using it
-Isn’t by virtue of having to activate it and touch the crown mean that it doesn’t “automatically detect” anything?
-No, automatic irregular rhythm notifications do not require taking ECGs.https://support.apple.com/en-us/HT208931
-This is correct.   My Apple series 3 told me I was in AFIB and I don’t even have ekg capabilities.
-I think afibs is only when doing ECG?
-Not true. See /u/anamexis comment. https://old.reddit.com/r/AppleWatch/comments/17v11oq/apple_watch_possibly_saved_a_relatives_life/k987xlc/
-My Apple Watch SE detected my afib. Went to cardiologist to confirm. Could have saved my life or at least avoided a stroke! Immediately went on blood thinners and scheduled an ablation.
-I am glad to read that! Hope everything is going well for you now. Keep that heart in check 🙂
-That’s tough. He does at least need to remember to charge it and put it on. Hard to monitor if you’re not around him daily.
-The Withings watches can detect AFib. They’re pretty basic devices.
-The watch will do the work for him
-Def get him Apple Watch ultra too if ya can it’s pretty tanky 🐱
-Apple’s a lot easier to use that anything android, especially for old people.
-Were there any other symptoms of a stroke? The weakness on the left side would have triggered emergency care long before the AW for me.
-Old people... especially old men.My dad is a freaking doctor and ignored his numb left arm for days. One morning he suffered a stroke, fell, had no one around and had to wait a whole day for help. Now, he is permanently paralysed on his left side.It's sad. Always listen to your body folks :/
-You are right. We men tend to ignore our bodies and this incident is a learning for me
-Once I got diagnosed with Cancer I upgraded my AW so it could be used as a locator device, detects falls and the I’ve fallen and I can’t get up situation. It was especially good when I used a walker in the house and didn’t have overnight care anymore. The phone is hard to hold/carry when using a walker in jammies. I’m so sorry about your dad. My dad was a paramedic for 20 yrs and this spring had 2 significant cardiac events. The first one he just took 20 nitroglycerin and thought the searing pain would stop. 3 days later he went to primary care who sent him to ED and he drove himself. He’s been in AF ever since. He did the same again 2 mos later where they finally put stents and a new valve in days after he checked himself out because he felt fine. He’s telling everyone he’s all fixed. They basically propped up his heart with bubblegum and popsicle sticks.  Sucks.
-Waiting 15 minutes for a second EKG after such well-known possible stroke symptoms is certainly a choice. Sudden-onset weakness on one side of the body (especially in an older patient) really should clue you in that they need hospital now, not after you try your fancy new gadget. Good on OP for applying the tools they thought would help (and eventually using them to make the right decision), but this really isn't a good example of how people should use AW health monitoring. https://www.cdc.gov/stroke/signs_symptoms.htm
-Sometimes after a long sit or rest, your limbs go numb/powerless, especially in elders, so sometimes you know something is not going right, but you don't know if you can wait it out or it's really a medical issue.
-I am curious: how does one go about rushing a loved one to a cardiac specialist? Does your family have a history of heart issues and you have one on call? If I were in a similar situation, I'd take the patient to urgent care or the emergency room. I didn't know you could even see a cardiac specialist by just showing up at their office?
-Seriously, it's just crazy to me that they waited to put an Apple Watch before attempting to get any kind of medical assistance.
-Things work differently in different places. At the time the incident happened I was in deep traffic travelling from the airport to home. What we did was our way of identifying if there could be an issue. And yes, in my country we can rush to a cardiac specialist in case of emergency, which we did
-Mine saved my life back in February!
-How did it help?
-Thanks for the post by the way. It reaffirms my decision to get a watch with an ECG. Even though hopefully I will never need to use it.
-Well there’s no harm in using it every once in a while. I do. Who knows maybe you feel fine but your heart isn’t
-It saved my life too! Twice. Hope he recovers fully and gets a smart watch!
-How did it help?
-I’ve never seen so many abbreviations in one post. Damn this was hard to understand as a non native English speaker
-No problems......and I am from Norway 🇳🇴
-Yeah what is AF?
-Atrial fibrillation
-What does AF mean?
-It stands for atrial fibrillation, it’s what the ECG on the Apple Watch checks for.
-Thanks for the clarification, my Apple Watch is older so I don’t have that function
-Unless you have an Apple Watch Series 2 or older, your watch can detect AFib. See the chart halfway down this page. https://www.apple.com/healthcare/apple-watch/ECG is needed to check on demand (series 4 and up),  but the Series 3 and SE watches can do it passively.
-I have a series 3, I don’t have the ECG app or AFib history at least that’s what it says from the link, not sure why I’m getting downvoted for that haha
-afib alerts are different than afib history, fwiw.
-Btw AF can be deadly
-No. AF can cause a stroke which can be deadly, but if the AF is treated and you are on a blood thinner, it is not deadly in itself.
-That’s the point, AF can induce things that are deadly. It can cause blood clots, which in turn is what can lead to a stroke, heart failure, or other issues.
-Yeah, but I’m saying AF itself, when managed, is not deadly. It’s when it goes untreated that it can cause stroke, which is deadly. I feel like it’s important to differentiate! A fib is NOT a death sentence.I think it’s important to make that distinction in a space where people who are newly diagnosed are looking for experiences and stuff, to know that as long as they know what they’re doing, lots of people live with a fib. That’s all. It’s scary enough, ya know?
-What a great story!! I’m glad to hear the watch helped your FIL and also that you had the presence of mind to think about putting it on him to check things out. :) I’m a young cardiac patient and my watch has helped immeasurably when I end up in the ER with arrhythmias. I quite literally couldn’t live without it.
-Wow. Thats incredible.
-Amazing. What version of watch ??
-Message says aw8 so probably aw8?
-Awesome! Great job!
-I hate that they have disabled ECG in my region.
-Same
-I believe it
-My new PCP is very old school which is not bad but for some reason he doesn’t take advantage of newer technology. At my last checkup, I was showing him how I used my Apple Watch to help me monitor my health. I demonstrated the EKG app and explained its limitations. As he was watching my EKG he was amazed pointing out all the different parts of the wave (which I don’t understand). I think he was pleased that I am proactive monitoring my health.
-Which model of Apple Watch has an ecg
-I believe series 4 and up
-I have a SE. Does it need setting up?
-Apple Watch SE doesn’t have ECG.
-I put my watch on my dad when he was slowly dying from brain cancer, as in hospice they don’t have any monitors. It was strange for someone laying down and sleeping to have a heart rate of 130+
+It’s worth noting that Iowa is a huge outlier in wind energy, but that its success is not replicable by any other state. Iowa’s wind energy output is only achievable due to its unique location in a high to low pressure weather system caused by the simple fact Illinois sucks and Nebraska blows.
+Can't argue with the science
+I’m from Illinois, but I still chuckled.…I’ve also been to Iowa, so…
+So... you've basked in the glory of the most verdant fields of corn man has ever laid eyes on. Hell yeah.
+That was amazing. Fantastic joke structure
+Can confirm, it’s very windy here. Never knew the true science behind it…now I do. Thank you!
+Couldn't, couldn't we just build more wind farms in Iowa and use that electricity in other states? All the states minus Texas is already connected by two national grids, so it shouldn't be difficult, no?
+He was making a joke
+The more distance between power sources and end users the more energy loss you get. By a lot
+Couldn't, couldn't we just build more wind farms in Iowa and use that electricity in other states?That's exactly how the grid works and how Iowa can achieve this stat in the first place because it's connected to the larger grids. This is counting "in which state" electricity is generated (produced), not where it's consumed. The wind farms that are in Iowa count for Iowa's production.
+Yes and no. It depends on the distance the electricity has to travel - we don't have access to room temp superconductors, so a lot of energy is lost just during transmission. Wires are basically super leaky pipes.
+Fortunately for Kansas, Oklahoma also sucks
+Texas actually produces much more wind power than Iowa, it's just a bigger state so it also produces more power from other sources.
+Please kindly note the referenced high to low pressure system appears to have created a whoosh sound above your head.
+Was solar not any states top energy producer so it wasn't included in the legend?
+There are no states that even come close. California has the largest percentage (~27%), but natural gas still provides almost twice as much electricity as solar in CA.The first state to get a majority from solar will almost certainly be a southern state (much higher insolation). But those states are lagging behind on renewables.
+This data is from three years ago too. While solar is the fastest growing source and has likely closed the gap, I’d still guess it is not close to being 1st in any state yet.
+can someone ELI5 why some of the barren deserts of Arizona/Nevada/New Mexico couldn't be used for massive solar farms?
+They can, at to a point they are, I just got back from a Solar Farm in Midland Texas. Same kind of land.But you run into the same problem wind does, where it’s being built, where it should be built, there aren’t a ton of people. So distribution becomes the problem.It’s why Off Shore wind can be so huge. That’s where our major population centers are and where we need the power.
+I know Texas has a bunch of solar and wind but natural gas is still cheap. I'm surprised that arizona has coal as it's highest, you'd think solar would be a no brainer in that state
+AZ is natural gas by the chart.  New Mexico is coal.Also, a lot of AZ is mountainous forest terrain.  We have/are a part of one of the largest contiguous pine forest in the world.
+Yeah, since Arizona has Palo Verde and doesn’t consume a ton of power I would have thought that nuclear would be the top source, but apparently not.
+Yeah, you'd think. But last I saw, Arizona is still under 10%.
+Solar makes up like 5% of total energy production so no.
+Yes.As for reasons why and some context:Most solar installations have been fairly recent and have been installed as replacement for the retirement of older power plants since there has been little growth in electricity demand for the last two decades or so, so it's been a rather slow process.Depending on the state, a significant portion of solar installations are smaller installations such as on homes or commercial property while EIA generally only tracks utility scale generation sources. Outside of solar, there are pretty much no smaller scale generation sources that cumulatively adds up to a significant source of generation so when considering total electricity production, EIA stats are going to undercount solar versus other installation sources.
+Yea it’s not that big right now. Like North Carolina has the 4th most solar in the country but it’s still only about 7% of the electricity. Obama’s solar investments had a huge impact but when Trump got into office it stopped growing at all.
+Jesus WV, save some coal for Xmas stockings would ya?
+Coal is a borderline jobs program in WV. There's not much else going on economically. Without it the state would be in MUCH worse shape.
+It really isn't though, that's a common misconception that's propagated as part of the political culture wars.  A long time ago, the coal industry was a major employer in WV... but those days are gone.Only 11,000 of WV's almost 2 million people are coal workers.  It's a dying industry, and it's been largely automated.  They just have massively outsized representation because they represent the idea of well paid hard working blue collar people.
+I’ve heard they have a fairly robust fentanyl distribution industry.
+But wait… I thought only blue states were crime-riddled?Drugs? In MY backyard? Why I never!
+This is one of my favorite links to pull out whenever anyone starts pretending like crime only exists in blue states. It’s amazing how clear the correlation is between drug overdose deaths and poorly managed conservative state governments. https://www.cdc.gov/nchs/pressroom/sosmap/drug_poisoning_mortality/drug_poisoning.htmThe reply is usually along the lines of “yeah but violent crime is definitely higher in blue states”. Nope, the worst states for gun-related deaths are almost exactly the same as the drug overdoses. https://worldpopulationreview.com/state-rankings/gun-deaths-by-state
+Little known fact about WV. Electric vehicles, among other things, actually increase demand for coal in that part of the country. It's booming right now.
+Cool map, "Type of Electricity" is an odd title, maybe "largest source of electricity"?Cuz there is really only one type of electricity... Still a great map, thank you!
+Map is showing production, not consumption. Not so long ago the Intermountain West was full of coal fired plants supplying California, and power imports continue.
+Thankfully in 2022 wind surpassed coal as New Mexico’s #1 energy source.
+Minnesota’s top type is only 26%? Off to google I go to find out about why MN is so diversified.
+Oh look, a repost bot.Original post; https://www.reddit.com/r/dataisbeautiful/s/f2llABxhTW
+Everyone hating on Nuclear, but I’ve lived all over the USA, and the most affordable electricity is in Tennessee.   $160 a month in the summer with two ACs running all the time with two stay at home people on laptops and extra monitors all day.   For comparison in Texas that same bill for the same months would have been mid $300s to low $400s.    Hydroelectric and Nuclear are worth it
+Nuclear Gang here.
+Nuclear is kinda just hard to trust in an environment where cost-cutting is seen as more important than maximizing safety. I feel that we live in too cynical a time to ever get past Chernobyl and Fukushima.
+The airlines do it….  Super tight on spending yet extremely safe.  It’s possible.
+Solar energy kills 7X the number of people every year than nuclear has claimed in the past 50 years. Nuclear is proven, and the technology is better than ever. Powerful lobbies who stand to profit greatly at the expense of the USA and EU nations work night and day to ensure people share your sentiments about Nuclear.  China will tell you... "Nuclear Bad Solar Good".... They just want our money.
+I have no agenda or anything but I’m just curious, how does solar kill?
+The sun is a deadly laser
+so true
+Do they have yearly comparisons?
+Hydroelectric to me is the most beautiful. I once read a study saying only 5% of the dams in the us are hydroelectric and we have a massive untapped energy source if we just convert them to hydroelectric power dams.
+Dams can have a huge environmental impact too. They really fucked up the Colorado River and drowned one of the prettiest canyons in the west, Glen Canyon.
+They also affect fish migration patterns.
+I heard dams attract bears
+And sediment distribution.
+Also, Ethiopia's new Blue Nile River Dam that MAY have significant impacts down river in Egypt and Sudan and my ultimately lead to conflict.
+A fellow real life lore fan. How do you do?
+I think they are talking about current dams that do nothing but control water flow. Not making new dams.
+A significant portion of dams in the US hold back a pretty minor height of water.According to NID's database there are over 91,000 "proper dams".Of these, only around 3000 have a hydraulic height above 50', and a 1350 of these are reservoirs/water supply/irrigation which limits their use as power generation.That leaves ~1600 dams, and of those over 600 are already hydroelectric.So when you hear that most dams in the US aren't hydroelectric, please take into consider that while improving our hydroelectric capacity is important, there aren't a ton of good candidates and a significant amount of those 90k dams have primary uses not suited for hydroelectric.
+Dams are cool but pretty debilitating to stream ecosystems =( And as we've seen with hoover, even a big dam isn't a guarantee the water will always flow.
+Its because most dams are dinky and lack the height to make it worthwhile, hyrdo was the first generation source so its not from lack of trying.
+There really aren’t many places in the US to build a dam that produces considerable energy. Almost all the places where it makes sense to build a hydroelectric dam are either already dammed or they protected by environmental regulations.
+Just note that rivers are foundational aspects of the environment. Many species completely depend on them for existence. Damming has a major detrimental effect to the environment. Not to mention that the process of constructing a dam in and of itself will produce a ton of gas emissions as heavy machinery is involved.While it is cleaner power than coal or natural gas, whether or not hydroelectric power is worth all the above is not absolute. The whole energy situation is far more complex than most people would like.
+I was just talking about this the other day with someone. We have so many damn dams in MN and hardly any are used for power. I see millions in wind and solar going up all over and in MN solar seems very pointless.
+Does solar output take into consideration private homes/businesses, or is this just utility company production? Is there a way to measure private sector solar?
+Proud to live in a nuclear state
+Maybe less beautiful, but this graphic is more informative: https://www.visualcapitalist.com/sp/road-to-decarbonization-united-states-electricity-mix/
+Washington wants to remove all the Dams because it’s not a renewable resource.
+Since when is hydro not considered to be a renewable energy source?
+When the water runs out because the climate gets funky and the mountains run out of ice.
+The vast majority of the water in the Columbia Basin comes from precipitation and snowmelt, not glacial ice melt.
+I believe the dams there are old and in disrepair.
+I work in Hydro in Washington state. They're looking into decommissioning some on the Snake River because of the environmental impacts on fish and a push from the Native American community to have access to better fishing. The dams near Mount Rainier are big money makers, are owned by city governments, and are still in very good condition for their age. Couldn't imagine the state would want to shut them down anytime soon.
+That's absolutely not the reason, it's due to lawsuits over salmon migration
+[deleted]
+Most of Nevada is desert.   That dam barely keeps up with demand from Vegas
+Well, today I learned that my state of Illinois has nuclear energy.
+This information is a bit dated since it is only showing 2020 annual average numbers. On mobile, so I had trouble finding state-level breakdowns, but here is a national source. Nationally, wind generation has increased ~30% from 2020 to 2022 and solar generation has increased by ~60%. In 2022 Wind was approximately 11% of National electricity generation (up from 9% in 2020) and solar was just under 4% in 2022 (up from 2% in 2020)https://www.eia.gov/totalenergy/data/monthly/pdf/sec7_6.pdfGoing forward, most of the near to medium term growth will be in solar generation based on what is sitting in the different interconnection queues across the US
+Why not use data that's not 4 years old?
