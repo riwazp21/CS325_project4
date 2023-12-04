@@ -1,4 +1,4 @@
-# Project - 5 CS 325 Riwaz Poudel and Justin Burns
+# Project - 6 CS 325 Riwaz Poudel and Justin Burns
 ## Python Program to scrape comments from multiple reddit post and running sentimental analysis on it
 ### Description
 This project scraps all the user comments from multiple reddit posts stored in a file, and runs a sentimental analysis algorithm on it
@@ -39,7 +39,9 @@ This project scraps all the user comments from multiple reddit posts stored in a
       Instead of reddit.txt, you can also have any file you want to run the program. Make sure you give the correct directory
    4. The scraped comment will be stored in Data/processed directory as comment_1.txt, comment_2.txt.... based on the links on reddit.txt
    5. The sentiments will be stored in Data/sentiment. In this project, sentiments from only 50 comments from comment1.txt are stored because of the limitation of API
-   6. The sentiments will be stored as sentiment1.txt, sentiment2.txt, etc.
+   7. The sentiments will be stored as sentiment1.txt, sentiment2.txt, etc.
+   8. The plots for the sentiment will be stored in Data/Plots directory
+   9. The plots will be stored as sentiment_plot1.png, sentiment_plot2.png, etc.
 
 #### The process of creating/utilizing keys with openAI/API account.
    1. Before starting, navigate to **'auth0.openai.com'** to create an account.
